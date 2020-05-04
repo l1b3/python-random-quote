@@ -3,9 +3,9 @@ def primario():
   print("Keep it logically awesome.")
 
   f = open("quotes.txt")
-  quotes = f.readlines()
+  quotes = f.readlines(all)
   f.close()
-  last = 13
+  last = 17
   rnd = random.randint(0, last)
   print(quotes[rnd])
 
